@@ -12,7 +12,7 @@ The NASA Kepler space telescope data is from a planet-hunting mission from the p
 ![outcomes for Logisitic Regression](https://github.com/EmmaLimoli/machine-learning-challenge/blob/main/Instructions/completed_images/Screen%20Shot%202020-11-11%20at%202.03.55%20PM.png)
 
 <h3>Model One: Logistic Regression</h3>
-For the first model, I chose Logisitic Regression since it's a classification model. Since we're trying to figure out whether there are hidden planets outside of the solar system, that's a binary question.
+For the first model, I chose [Logisitic Regression](https://github.com/EmmaLimoli/machine-learning-challenge/blob/main/Instructions/starter_code/model_1.ipynb) since it's a classification model. Since we're trying to figure out whether there are hidden planets outside of the solar system, that's a binary question.
 
 The first step was pre-processing the data. I used StandardScaler and LabelEncoder to scale the data. I created StandardScalers to fit X for train and test. LabelEncoder helps fit the y_train. Additionally, LabelEncoder helps to transform Y test and train to make it easier to digest for the Logistic Regression model. 
 
