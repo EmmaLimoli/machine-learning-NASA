@@ -1,11 +1,11 @@
-# machine-learning-challenge
+<h1>Machine Learning Project</h1>
 use machine learning to process raw data
 
-#The Goal: The goal for this project was to take the data from NASA Kepler space telescope from the past nine years and use Machine Learning models to discover hidden planets outside of the solar system. 
+<strong>The Goal:</strong> The goal for this project was to take the data from NASA Kepler space telescope from the past nine years and use Machine Learning models to discover hidden planets outside of the solar system. 
 
-#How This Was Achieved: The NASA Kepler space telescope data is from a planet-hunting mission from the past nine years. In the project, preprocessing the dataset was the first step, followed by tuning model parameters to find out the possibility of additional planets being outside the solar system. I chose two models to try and compare the outcomes. The two models were Logisitc Regression and Random Forest.  
+<strong>How This Was Achieved:</strong> The NASA Kepler space telescope data is from a planet-hunting mission from the past nine years. In the project, preprocessing the dataset was the first step, followed by tuning model parameters to find out the possibility of additional planets being outside the solar system. I chose two models to try and compare the outcomes. The two models were Logisitc Regression and Random Forest.  
 
-#Model One: Logistic Regression
+<strong>Model One: Logistic Regression</strong>
 For the first model, I chose Logisitic Regression since it's a classification model. Since we're trying to figure out whether there are hidden planets outside of the solar system, that's a binary question.
 
 The first step was pre-processing the data. I used StandardScaler and LabelEncoder to scale the data. I created StandardScalers to fit X for train and test. LabelEncoder helps fit the y_train. Additionally, LabelEncoder helps to transform Y test and train to make it easier to digest for the Logistic Regression model. 
@@ -19,7 +19,7 @@ Lastly, I used the GridSearch model for hyperparameter tuning. For the gird para
 In conslusion, the training and testing data were right 88% and 89% respectively. When studying the precision, recall, f1 score, and support breakdown, I found that the percentages were above 60%, which is what I was hoping for. 
 
 
-#Model Two: Random Forest
+<strong>Model Two: Random Forest</strong>
 For the second model, I chose Random Forest because it's a classification model. The Random Forest model helps to build the different scenarios of the data based on the samples. This model will produce a prediction that's based on the average of the findings. Since we want to find out about hidden planets, this model will give us the average prediction of each outcome. 
 
 Like the Logistic Regression model, I chose the features to run through the model. I deviate from the previous model at pre-processing since I used MinMaxScaler instead of Standard Scaler and LabelEncoder. I used MinMaxScaler because it would be beneficial to see the lowest and highest numbers of the sample set to better understand the average outcomes.
@@ -30,6 +30,6 @@ Lastly, like the Logisitic Regression model, I used GridSearch to narrow down an
 
 In conslusion, the training and test data were right 100% and 88% respectively. When studying the breakdown of precision, the precentages were above 60%, which again is what I was hoping for.  
 
-Tools Used: Python, sklearn, Pandas, Matplotlib, NumPy, train test split, MinMaxScaler, StandardScaler, LabelEncoder, Logistic Regression, Random Forest, Classification Report, GridSearch, JobLib 
+<strong>Tools Used: Python, sklearn, Pandas, Matplotlib, NumPy, train test split, MinMaxScaler, StandardScaler, LabelEncoder, Logistic Regression, Random Forest, Classification Report, GridSearch, JobLib</strong> 
 
 
