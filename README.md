@@ -24,6 +24,8 @@ Lastly, I used the GridSearch model for hyperparameter tuning. For the gird para
 
 In conslusion, the training and testing data were right 88% and 89% respectively. When studying the precision, recall, f1 score, and support breakdown, I found that the percentages were above 60%, which is what I was hoping for. 
 
+![outcomes for Random Forest](https://github.com/EmmaLimoli/machine-learning-challenge/blob/main/Instructions/completed_images/Screen%20Shot%202020-11-11%20at%202.07.41%20PM.png)
+![testing/train for Random Forest](https://github.com/EmmaLimoli/machine-learning-challenge/blob/main/Instructions/completed_images/Screen%20Shot%202020-11-11%20at%202.09.36%20PM.png)
 
 <h3>Model Two: Random Forest</h3>
 For the second model, I chose Random Forest because it's a classification model. The Random Forest model helps to build the different scenarios of the data based on the samples. This model will produce a prediction that's based on the average of the findings. Since we want to find out about hidden planets, this model will give us the average prediction of each outcome. 
