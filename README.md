@@ -9,6 +9,8 @@ The goal for this project was to take the data from NASA Kepler space telescope 
 <br></br>
 The NASA Kepler space telescope data is from a planet-hunting mission from the past nine years. In the project, preprocessing the dataset was the first step, followed by tuning model parameters to find out the possibility of additional planets being outside the solar system. I chose two models to try and compare the outcomes. The two models were Logisitc Regression and Random Forest.  
 
+![outcomes for Logisitic Regression](https://github.com/EmmaLimoli/machine-learning-challenge/blob/main/Instructions/completed_images/Screen%20Shot%202020-11-11%20at%202.03.55%20PM.png)
+
 <h3>Model One: Logistic Regression</h3>
 For the first model, I chose Logisitic Regression since it's a classification model. Since we're trying to figure out whether there are hidden planets outside of the solar system, that's a binary question.
 
