@@ -1,13 +1,15 @@
 <h1>Machine Learning Project</h1>
 use machine learning to process raw data
 <br></br>
-<strong>The Goal:</strong> The goal for this project was to take the data from NASA Kepler space telescope from the past nine years and use Machine Learning models to discover hidden planets outside of the solar system. 
+<strong>The Goal:</strong> 
+<br></br>
+The goal for this project was to take the data from NASA Kepler space telescope from the past nine years and use Machine Learning models to discover hidden planets outside of the solar system. 
 <br></br>
 <strong>How This Was Achieved:</strong> 
 <br></br>
 The NASA Kepler space telescope data is from a planet-hunting mission from the past nine years. In the project, preprocessing the dataset was the first step, followed by tuning model parameters to find out the possibility of additional planets being outside the solar system. I chose two models to try and compare the outcomes. The two models were Logisitc Regression and Random Forest.  
 
-<strong>Model One: Logistic Regression</strong>
+<h3>Model One: Logistic Regression</h3>
 <br></br>
 For the first model, I chose Logisitic Regression since it's a classification model. Since we're trying to figure out whether there are hidden planets outside of the solar system, that's a binary question.
 
@@ -22,7 +24,7 @@ Lastly, I used the GridSearch model for hyperparameter tuning. For the gird para
 In conslusion, the training and testing data were right 88% and 89% respectively. When studying the precision, recall, f1 score, and support breakdown, I found that the percentages were above 60%, which is what I was hoping for. 
 
 
-<strong>Model Two: Random Forest</strong>
+<h3>Model Two: Random Forest</h3>
 <br></br>
 For the second model, I chose Random Forest because it's a classification model. The Random Forest model helps to build the different scenarios of the data based on the samples. This model will produce a prediction that's based on the average of the findings. Since we want to find out about hidden planets, this model will give us the average prediction of each outcome. 
 
