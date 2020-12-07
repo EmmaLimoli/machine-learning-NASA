@@ -28,7 +28,7 @@ In conslusion, the training and testing data were right 88% and 89% respectively
 ![testing/train for Random Forest](https://github.com/EmmaLimoli/machine-learning-challenge/blob/main/Instructions/completed_images/Screen%20Shot%202020-11-11%20at%202.09.36%20PM.png)
 
 <h3>Model Two: Random Forest</h3>
-For the second model, I chose Random Forest because it's a classification model. The Random Forest model helps to build the different scenarios of the data based on the samples. This model will produce a prediction that's based on the average of the findings. Since we want to find out about hidden planets, this model will give us the average prediction of each outcome. 
+For the second model, I chose [Random Forest(https://github.com/EmmaLimoli/machine-learning-challenge/blob/main/Instructions/starter_code/model_2.ipynb)] because it's a classification model. The Random Forest model helps to build the different scenarios of the data based on the samples. This model will produce a prediction that's based on the average of the findings. Since we want to find out about hidden planets, this model will give us the average prediction of each outcome. 
 
 Like the Logistic Regression model, I chose the features to run through the model. I deviate from the previous model at pre-processing since I used MinMaxScaler instead of Standard Scaler and LabelEncoder. I used MinMaxScaler because it would be beneficial to see the lowest and highest numbers of the sample set to better understand the average outcomes.
 
