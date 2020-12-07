@@ -1,6 +1,6 @@
 <h1>Machine Learning Project</h1>
 use machine learning to process raw data
-
+<br></br>
 <strong>The Goal:</strong> The goal for this project was to take the data from NASA Kepler space telescope from the past nine years and use Machine Learning models to discover hidden planets outside of the solar system. 
 
 <strong>How This Was Achieved:</strong> The NASA Kepler space telescope data is from a planet-hunting mission from the past nine years. In the project, preprocessing the dataset was the first step, followed by tuning model parameters to find out the possibility of additional planets being outside the solar system. I chose two models to try and compare the outcomes. The two models were Logisitc Regression and Random Forest.  
